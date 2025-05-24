@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>professorwrestler</title>
+    <!-- Google fonts -->
+
+    <!-- Jacqyard -->
+    <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tinos (Great Value Times New Roman)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <div class="topNav">
+      <button class="myButton" popovertarget="about">About</button>
+      <button class="myButton" popovertarget="projects">Projects</button>
+      <button class="myButton" popovertarget="tools">Tools</button>
+      <button class="myButton" popovertarget="socials">Socials</button>
+    </div>
+    <div>
+      <hr />
+      <h1>professorwrestler</h1>
+      <h3>knoxville, tn</h3>
+      <hr />
+    </div>
+    <!--<link rel="icon" href="./favicon.ico" type="image/x-icon" /> -->
+  </head>
+  <body>
+    <main>
+      <div popover id="about">
+        <h1>
+          about
+          <p id="terminalText">$ cat about.txt</p>
+        </h1>
+
+        <p>
+          I'm a hobbyist programmer that enjoys making JavaScript games and Bash
+          scripts on Unix'esque operating systems.
+        </p>
+        <p>
+          This site was made with one page of HTML, minimal CSS, and a few
+          JavaScript functions. I used a bunch of popovers to simulate multiple
+          pages.
+        </p>
+        <p>
+          My free time consists of reading books and reviewing them on
+          Instagram.
+        </p>
+        <p>
+          Disclaimer: I am not a professor nor a wrestler. The name came from a
+          custom character I made in the game Fire Pro Wrestling.
+        </p>
+      </div>
+
+      <div popover id="projects">
+        <h1>
+          projects
+          <p>Programs and scripts.</p>
+        </h1>
+        <p>
+          <a href="https://professorwrestler.github.io/antlerhorn/"
+            >Antlerhorn</a
+          >
+          An HTML5 side-scrolliong shooter game made with the Phaser JavaScript
+          game library. Uses WASD keys to move and spacebar to shoot.
+        </p>
+        <p>
+          <a href="https://professorwrestler.github.io/animationExample/"
+            >Animaton Example</a
+          >
+          A bare-bones sprite animation example made with Phaser. On web, hold
+          down your mouse in any direction and the player will follow. Works the
+          same on mobile, but with touch controls.
+        </p>
+        <p>
+          <a href="https://github.com/professorwrestler/phaserTemplate"
+            >Phaser Game Template</a
+          >
+          A full template for making a game with Phaser. Includes class-based
+          scene functionality.
+        </p>
+        <p>
+          <a href="https://github.com/professorwrestler/quickHTML">quickHTML</a>
+          A Bash script that quickly generates HTML, CSS, and JavaScript
+          boilerplate for making static sites (like this one).
+        </p>
+        <p>
+          <a href="https://github.com/professorwrestler/weatherfetch"
+            >weatherFetch</a
+          >
+          A NodeJS script leveraging the Axios library to show the current
+          weather and some system info in the terminal.
+        </p>
+        <p>
+          <a href="https://github.com/professorwrestler/bashBooks">bashBooks</a>
+          A pseudo CRUD terminal app written in Bash for keeping track of the
+          books I'm reading.
+        </p>
+        <p>
+          <a href="https://github.com/professorwrestler/imageFinder"
+            >imageFinder</a
+          >
+          A quick Bash script for finding images in multiple folders and moving
+          them to a single new folder.
+        </p>
+      </div>
+
+      <div popover id="tools">
+        <h1>
+          tools
+          <p>Things I use.</p>
+        </h1>
+        <p>
+          <a href="https://www.apple.com/macbook-air/">Macbook Air M1(2020)</a>
+          My main machine.
+        </p>
+        <p>
+          <a href="https://www.gnu.org/software/emacs/">GNU Emacs</a>
+          My favorite text editor. You can find my .emacs (config) file
+          <a
+            href="https://github.com/professorwrestler/dotFiles/blob/main/.emacs"
+            >here</a
+          >.
+        </p>
+        <p>
+          <a href="https://phaser.io/">Phaser</a>
+          A fun JavaScript game library with the best documentation around.
+        </p>
+        <p>
+          <a href="https://iterm2.com/">iTerm2</a>
+          My favorite terminal emulator for Mac.
+        </p>
+        <p>
+          <a href="https://fedoraproject.org/">Fedora</a>
+          The Linux distribution I run on an old Dell Latitude.
+        </p>
+      </div>
+
+      <div popover id="socials">
+        <h1>
+          socials
+          <p>Other places you can find me.</p>
+        </h1>
+        <p>
+          <a href="https://github.com/professorwrestler">Github</a>
+          Contains source code for all projects contained here.
+        </p>
+        <p>
+          <a href="https://www.instagram.com/professor_wrestler/">Instagram</a>
+          Account dedicated solely to reviewing books (mostly novels).
+        </p>
+      </div>
+
+      <div popover id="terms">
+        <h1>BOO! 👻</h1>
+        <p>
+          Does this look like a site that wants anything to do with your data?
+          There are no terms of service!
+        </p>
+      </div>
+
+      <div class="footer">
+        <p>
+          <button class="footerButton" popovertarget="terms">
+            Terms of Service
+          </button>
+        </p>
+      </div>
+    </main>
+    <script src="/js/main.js"></script>
+  </body>
+</html>

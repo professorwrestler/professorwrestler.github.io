@@ -1,0 +1,152 @@
+/* Background images, other body attributes */
+
+body {
+  /* background-image: url("/assets/blocks_tile1.png");
+  background-repeat: repeat-y, reapeat-x; */
+  background-color: #fbf1c7;
+  max-width: 750px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+/* Text */
+
+h1 {
+  font-family: Courier New;
+  font-color: #282828;
+}
+
+h3 {
+  font-family: Courier New;
+  font-size: 16px;
+  font-color: #282828;
+}
+
+p {
+  font-family: Courier New;
+  font-size: 16px;
+  font-color: #282828;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+::selection {
+  color: #fbf1c7;
+  background: #af3a03;
+}
+
+hr {
+  color: #282828;
+  background-color: #282828;
+  height: 2px;
+}
+
+/* Href Links */
+
+/* unvisited link */
+a:link {
+  color: #458588;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+  color: #076678;
+}
+
+/* mouse over link */
+a:hover {
+  color: #b16286;
+}
+
+/* selected link */
+a:active {
+  color: #8f3871;
+}
+
+/* Fonts */
+
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Popovers */
+
+:popover-open {
+  /*width: 400px;
+  height: 400px;*/
+  background-color: #ebdbb2;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 25%;
+  /*bottom: 5%;*/
+  height: 500px;
+  max-width: 700px;
+  position: absolute;
+  border: none;
+  overflow-y: scroll;
+}
+
+/* Navbar/header */
+
+.topNav {
+  /*background-color: #333;*/
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+/* Footer  */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fbf1c7;
+  color: #282828;
+  text-align: center;
+}
+
+/* Buttons */
+
+.myButton {
+  background-color: #689d6a;
+  display: inline-block;
+  cursor: pointer;
+  color: #282828;
+  font-family: Courier New;
+  font-size: 16px;
+  /*padding: 12px 32px;*/
+  text-decoration: none;
+}
+
+.footerButton {
+  background-color: transparent;
+  display: inline-block;
+  cursor: pointer;
+  color: #282828;
+  font-family: Courier New;
+  font-size: 16px;
+  text-decoration: none;
+  border: none;
+  top: 20px;
+}
+
+.myButton:hover {
+  background-color: #427b58;
+  color: #fbf1c7;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
