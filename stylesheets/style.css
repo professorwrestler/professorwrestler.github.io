@@ -65,20 +65,6 @@ a:active {
   color: #8f3871;
 }
 
-/* Fonts */
-
-.jacquard-12-regular {
-  font-family: "Jacquard 12", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.tinos-regular {
-  font-family: "Tinos", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* Popovers */
 
 :popover-open {
